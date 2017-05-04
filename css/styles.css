@@ -1,0 +1,19 @@
+img.pics {
+  max-width: 300px;
+}
+
+.column {
+  border: 2px solid green;
+  padding: 4px;
+  margin: 8px;
+  float: left;
+  background-color: yellow;
+}
+
+p {
+  text-align: center;
+}
+
+p.wrap {
+  max-width: 300px;
+}
