@@ -17,3 +17,18 @@ p {
 p.wrap {
   max-width: 300px;
 }
+
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  body {
+    background-color: black;
+  }
+  .color {
+    color: white;
+  }
+}
